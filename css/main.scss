@@ -51,3 +51,10 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.site-title {
+  background-image: url( ../assets/logo_60.png );
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 60px;
+}
