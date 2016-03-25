@@ -52,9 +52,20 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+//Takes the logo text and rotates it 90 degress.
+#logo {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  display:inline-block;
+  color: rgb(0, 38,255);
+}
+
+/* This is the image logo.
 .site-title {
   background-image: url( ../assets/logo_60.png );
   background-position: left;
   background-repeat: no-repeat;
   padding-left: 60px;
 }
+*/
