@@ -59,8 +59,16 @@ $on-laptop:        800px;
   transform: rotate(90deg);
   display:inline-block;
   color: rgb(0, 38,255);
+  position: relative;
+  right: 2px;
+  bottom: 1px;
 }
 
+#mouth {
+  font-size: 23px;
+  position: relative;
+  bottom: 1px;
+}
 /* This is the image logo.
 .site-title {
   background-image: url( ../assets/logo_60.png );
