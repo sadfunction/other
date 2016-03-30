@@ -8,7 +8,7 @@ permalink: /blog/
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% unless post.categories contains 'articles' %}
+      {% unless post.categories contains 'article' %}
 
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
